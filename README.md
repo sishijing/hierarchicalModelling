@@ -1,4 +1,6 @@
 # hierarchicalModelling
 several ways to perform hierarchical modelling
 
-This is my first time to use GitHub
+Here I will provide several algorithm to fit hierarchical
+models
+

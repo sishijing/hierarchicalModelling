@@ -1,5 +1,10 @@
 ####compare and try different approaches to fitting Gaussian
 ##-Gaussian hierarchical models
+First level: Y_{i}\sim{N}(mu_{i}, sigma^{2});
+Second level: mu_{i}\sim{N}(gamma, tau^{2});
+with Data=(Y_{1},..., Y_{n}), Mu=(mu_{1}, ..., mu_{n}),
+sigma the common standard deviation for the observed data.
+Mu is the true values, in real cases unknown.
 ###fully bayesian, post-hoc modelling and so on
 ###approach 1: fully bayesian
 ###fully Bayesian fitting with Gibbs sampler, dont fit the
